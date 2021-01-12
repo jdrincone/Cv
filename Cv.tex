@@ -1,0 +1,223 @@
+
+
+\PassOptionsToPackage{pdfpagelabels=false}{hyperref}
+\documentclass[11pt,a4paper,sansserif]{moderncv}   % opciones posibles incluyen tamaño de fuente ('10pt', '11pt' and '12pt'), tamaño de papel ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' y 'landscape') y familia de fuentes ('sans' y 'roman')
+\usepackage{textcomp}
+\usepackage{hyperref}
+% temas de moderncv
+\moderncvstyle{casual}                        % las opciones de estilo son 'casual' (por omision),'classic', 'oldstyle' y 'banking'
+\moderncvcolor{green}                          % opciones de color 'blue' (por omision), 'orange', 'green', 'red', 'purple', 'grey' y 'black'
+%\renewcommand{\familydefault}{\sfdefault}    % para seleccionar la fuente por omision, use '\sfdefault' para la fuente sans serif, '\rmdefault' para la fuente roman, o cualquier nombre de fuente
+%\nopagenumbers{}                             % elimine el comentario para suprimir la numeracion automatica de las paginas para CVs mayores a una pagina
+
+\renewcommand*{\namefont}{\fontsize{20}{22}\mdseries\upshape}
+\renewcommand*{\titlefont}{\LARGE\mdseries\upshape}
+
+% codificacion de caracteres
+\usepackage[utf8]{inputenc}                  % reemplace con su codificacion
+%\usepackage{CJKutf8}                         % si necesita usa CJK para redactar su CV en chino, japones o coreano
+
+% ajustes para los margenes de pagina
+\usepackage[scale=0.80]{geometry}
+\setlength{\hintscolumnwidth}{3.5cm}           % si desea cambiar el ando de la columna para las fechas
+
+% datos personales
+\firstname{Juan David}
+\familyname{RINC\'ON ESTRADA}
+\title{Msc Física}                   % dato opcional, elimine la linea si no desea el dato
+\address{Medellín}{Colombia} % dato opcional, elimine la linea si no desea el dato
+\mobile{(+57) 300 364 8095}                            % dato opcional, elimine la linea si no desea el dato
+\phone{(+57)(4) 5342134}                             % dato opcional, elimine la linea si no desea el dato
+%\fax{+3~(456)~789~012}                               % dato opcional, elimine la linea si no desea el dato
+\email{david.rincon@udea.edu.co}   
+
+% dato opcional, elimine la linea si no desea el dato
+\homepage{github.com/jdrincone}                           % dato opcional, elimine la linea si no desea el dato
+%\extrainfo{informacion adicional}                    % dato opcional, elimine la linea si no desea el dato
+\photo[64pt][1pt]{perfil.jpg}                         % '64pt' es la altura a la que la imagen debe ser ajustada, 0.4pt es grosor del marco que lo contiene (eliga 0pt para eliminar el marco) y 'picture' es el nombre del archivo; dato opcional, elimine la linea si no desea el dato
+%\quote{Alguna cita (opcional)}                       % dato opcional, elimine la linea si no desea el dato
+
+% para mostrar etiquetas numericas en la bibliografia (por omision no se muestran etiquetas), solo es util si desea incluir citas en en CV
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+
+% bibliografia con varias fuentes
+%\usepackage{multibib}
+%\newcites{book,misc}{{Libros},{Otros}}
+%----------------------------------------------------------------------------------
+%            contenido
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                     % para redactar el CV en chino usando CJK
+%\small 
+\maketitle
+
+%INFORMACION PERSONAL
+\section{\textsc{Información Personal}}
+\cvitem{Nombre completo}{Juan David Rinc\'on Estrada}
+\cvitem{Fecha de nacimiento}{18 de Septiembre de 1993.}
+\cvitem{Lugar de Nacimiento}{Medell\'in, Antioquia, Colombia.}
+
+\cvitem{E-mail}{david.rincon@udea.edu.co}
+\cvitem{Github:}{\url{github.com/jdrincone}}
+\cvitem{Portafolio:}{\url{github.com/jdrincone/Portafolio}}
+\cvitem{Celular}{(+57) 300 364 8095}
+\cvitem{Ciudad}{Guarne, Antioquia, Colombia.}
+\cvitem{}{}
+
+%INFORMACION ACADEMICA
+\section{\textsc{Formación Académica}}
+
+\subsection{Estudios Universitarios}
+
+\cventry{2017 - 2019}{Msc Física}{Centro de Investigaci\'on y de Estudios Avanzados del Polict\'ecnico Nacional (CINVESTAV)}{M\'exico}{}{}
+
+\cventry{2012 - 2017}{F\'isica}{Universidad de Antioquia}{Sede Medellín}{}{}
+
+
+%OTROS CURSOS
+\subsection{Otros Estudios}
+\cventry{2021 - Actual}{Diplomado en Artificial Intelligence and deep learning}{Universidad Nacional de Colombia}{Sede Bogotá}{}{}
+\cventry{2020 - Actual}{Certificación Junior Data Science}{Acámica}{Academia Argentina}{Curso intermedio-avanzado. Certificado avalado por IBM y Globant}{}{}
+
+\cventry{2020}{Diplomado en Data Science and Machine Learning}{Universidad Nacional de Colombia}{Sede Bogotá}{}{}
+%==================================================================================================%
+%Becas y reconocimientos
+\section{\textsc{Becas y Reconocimientos}}
+
+\cventry{2017 - 2019}{Beca para Estudios de Posgrado por el Conacyt}{ CINVESTAV, M\'exico}{}{}{}
+
+\cventry{2013 - 2015}{Matricula de Honor}{ Universidad de Antioquia}{Medell\'in}{}{}
+\cventry{2016}{Pasantía de Investigación }{Universidad Federal de Sao Carlos}{Brasil}{}
+\newpage
+
+
+\cvitem{}{}
+%==================================================================================================
+%PARTICIPACION EN EVENTOS
+\section{\textsc{Conferencias y congresos}}
+\cventry{2020}{Seminario de investigaci\'on}{ UNAM}{Laboratorio de Materia Ultrafría}{}{}
+\cventry{2019}{Seminario de investigaci\'on}{ Cinvestav}{Grupo de F\'isica Matem\'atica}{}{}
+\cventry{2017}{Seminario de investigaci\'on}{ Universidad de Antioquia}{Grupo de Estado Sólido}{}{}
+\cventry{2016}{Seminario de investigaci\'on}{ Universidad de Antioquia}{Grupo de Estado Sólido}{}{}
+
+\cventry{2015}{3rd Materials and Plasma Technology - IMRMPT}{Santander}{Ponente}{}{}
+
+
+%==================================================================================================
+%PUBLICACIONES
+\section{\textsc{Publicaciones}}
+
+
+\cvitem{}
+	{\begin{itemize}
+	\item \textbf{} Juan D Rincon-Estrada, David Bermudez, Instabilities in an Optical Black-Hole Laser,Ann. Phys. (Berlin) 2020, 2000239. DOI: \url{}\href{http://www.onlinelibrary.wiley.com/doi/abs/10.1002/andp.202000239}{10.1002/andp.202000239}
+	\item \textbf{} Juan David Rincon, Medidas universales de espacio y tiempo, Avance y perspectiva. (M\'exico) 2019, \url{https://bit.ly/2sNA7LV}
+	\item \textbf{} Fernando Londo\~no, Juan Rincon, Art\'iculo pr\'oximo a publicaci\'on: JMSC-D-18-01037.
+	\end{itemize}}
+
+
+
+%IDIOMAS
+\section{\textsc{Idiomas}}
+\cvitem{\small\textbf{Español}}
+	{Nativo.}
+\cvitem{\small\textbf{Ingles}}
+	{Intermedio.}
+
+
+
+%==================================================================================================
+%CONOCIMIENTOS DE COMPUTADOR
+
+\section{\textsc{Conocimientos de Computación}}
+
+\cvitem{}
+	{\begin{itemize}
+	\item \textbf{Lenguajes de programaci\'on:} Python, Mathematica, Matlab.
+	\item \textbf{Sistemas Operativos y Software:} Linux, MSWindows, LaTeX, gnuplot, git, github.
+	\item \textbf{Bases de Datos:} SQL, Hadoop, MongoDB, Spark.
+	\item \textbf{Repositorios:} Lista de proyectos en \textit{github} pag: 
+	\url{github.com/jdrincone}
+	\end{itemize}}
+
+
+
+%EXPERIENCIA LABORAL
+\section{\textsc{Experiencia Laboral}}
+\cventry{2011- Presente}{Profesor independiente}{}{}{Medellín y M\'exico}{
+\begin{itemize}
+ \item Cursos en F\'isica: m\'ecanica, campos, ondas, medios continuos, flu\'idos, termodin\'amica, mec\'anica cu\'antica, f\'isica moderna, f\'isica teor\'ica, teoría cuántica de campos en espacio-tiempo curvo. 
+ \item Cursos en Matemáticas: c\'alculo diferencial, integral y en varias variables, c\'alculo vectorial, matem\'aticas especiales, ecuaciones diferenciales, \'algebra lineal, estadística y probabilidad.
+  \item Cursos en computo: Python, Mathematica, Matlab, contenido de cursos en  repositorio pag: 
+	\url{github.com/jdrincone/cursos}
+\end{itemize}
+}
+\cvitem{}{}
+\cventry{2019--Presente}{Recepcionista}{}{Monteverde C.L S.A.S}{Guarne}{
+An\'alisis de datos, optimizaci\'on de procesos, gestionar, verificar, aceptar, coodinar reservaciones,
+estrategia, comunicación y servicio al cliente nacional e internacional, oficios varios.\\
+}
+\cventry{May 2019 -- Ago 2019}{Profesor ayudante del curso en Electrodin\'amica}{}{Propedeuticos del Departamento de F\'isica del CINVESTAV}{M\'exico}{
+Ense\~nar herramientas matem\'aticas y computacionales para dar soluci\'on a problemas de electrodin\'amica a estudiante que inician la maestr\'ia en f\'isica.\\
+}
+\cventry{Nov 2016 -- Dic 2016}{Pasant\'ia de Investigaci\'on}{}{Grupo de Materiales Ferroicos de la universidad Federal de S\~ao Carlos}{Brasil}{
+S\'intesis y caracterizaci\'on de cer\'amicas PLMN-13PT, actividad de laboratorio.\\
+}
+\cventry{Ene 2016 -- May 2017}{Joven Investigador}{}{Grupo de estado s\'olido de la Universidad de Antioquia}{Medell\'in}{
+Revisi\'on bibliogr\'afica en el \'area de materiales cer\'amicos multifuncionales, trabajo experimental en materiales cer\'amicos multifuncionales, presentaci\'on de semirario y poster en congreso Nacional.\\
+}
+
+
+\section{\textsc{Intereses}}
+\cvitem{Ciencia de Datos}{Apacionado por aprender y aplicar criterios estadísticos en el análisis exploratorio de datos y en la creaci\'on de modelos predictivos con Machine Learning y deep learning. Entusiasta en aprender nuevas tecnologías en Cloud Computing y Big Data.}
+\cvitem{Trabajo en Equipo}{Como filosofía de vida al trabajar con muchos científicos: compartir las habilidades aprendidas en un tema para así estar en constante evaluación, avanzar en un grupo de trabajo y mejorar nuestro dominio sobre un tema.}
+
+\cvitem{F\'isica y sociedad}{Con perspectiva de transladar modelos de machine learning y deep learning com\'umente usados en el \'ambito cient\'ifico al sector industrial y social.}
+
+\section{Referencias}
+
+\cvitem{}{
+\textbf{David Bermudez Rosales, PhD}.\newline{}
+\textit{Investigador Permanente}.\newline{}
+ Departamento de f\'isica \newline{}
+ Cinvestav, M\'exico\newline{}
+E-mail: \href{mailto:dbermudez@fis.cinvestav.mx}{dbermudez@fis.cinvestav.mx}\newline{}
+Tel\'efono: 01 (55) 57473800 \newline{}
+}
+
+
+\cvitem{}{
+\textbf{Fernando Londo\~no Badillo, PhD}.\newline{}
+\textit{Profesor Asociado }.\newline{}
+Instituto de f\'isica \newline{}
+Universidad de Antioquia, Colombia\newline{}
+E-mail: \href{mailto:fernandoa.londono@udea.edu.co}{fernandoa.londono@udea.edu.co}\newline{}
+Tel\'efono: (57+4) 219 65 75\newline{}
+}
+
+\cvitem{}{
+\textbf{Alejandro Rinc\'on Estrada}.\newline{}
+\textit{International Business Management}.\newline{}
+Monteverde C.L.S.A.S.\newline{}
+Guarne, Colombia.\newline{}
+E-mail: \href{mailto:alejoestradavip@gmail.com}{alejoestradavip@gmail.com}\newline{}
+Tel\'efono: (+57) 302 4633589\newline{}
+}
+
+% \cvitem{}{
+% \textbf{Nerio Andrés Montoya Giraldo, MSc}.\newline{}
+% \textit{Profesor}.\newline{}
+% Escuela de F\'isica.\newline{}
+% Universidad Nacional de Colombia.\newline{}
+% E-mail: \href{mailto:namontoy@unal.edu.co}{namontoy@unal.edu.co}\newline{}
+% Tel\'efono: (+57) 312 259 2372\newline{}
+% Tel\'efono Italia (Actual): (+39) 3311831884\newline{}
+% }
+
+
+\end{document}
+
+%% fin del archivo `template-es.tex'.
+
